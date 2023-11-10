@@ -1,0 +1,18 @@
+.banner__imagen{
+    background: url("/img/fondo.png");
+    background-repeat: no-repeat;
+    background-color: black;
+    background-position: center;
+    width: 100%;
+   
+}
+@media screen and (min-width:0) {
+    .banner__imagen{
+        height: calc(100vh - 151px);
+    }
+}
+@media screen and (min-width:768px) {
+    .banner__imagen{
+        height: calc(100vh - 272px);
+    }
+}
